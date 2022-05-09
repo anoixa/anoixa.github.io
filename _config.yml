@@ -102,4 +102,6 @@ theme: hexo-themes-matery-pro
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: git
+    repo: git@github.com:anoixa/anoixa.github.io.git
+    branch: master
